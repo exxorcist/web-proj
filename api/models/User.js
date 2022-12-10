@@ -20,6 +20,10 @@ const UserSchema = new mongoose.Schema(
       required: true,
       min: 6,
     },
+    starCount: {
+      type: Number,
+      default: 25000,
+    },
     profilePicture: {
       type: String,
       default: "",
