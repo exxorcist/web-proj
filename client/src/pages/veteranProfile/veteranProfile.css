@@ -1,0 +1,51 @@
+.veteranProfile{
+    display: flex;
+    background-color: rgb(95, 126, 136);
+}
+
+.leftProfile{
+    flex: 9;
+}
+
+.coverOfProfile{
+    height: 320px;
+    position: relative;
+}
+
+.coverOfProfileImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.imgProfile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.infoProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoProfileName{
+    font-size: 24px;
+}
+
+.infoProfileDesc{
+    font-weight: 300;
+}
+
+.profileBottomRight{
+    display: flex;
+}

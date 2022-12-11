@@ -1,0 +1,115 @@
+.sharePost {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  background-color: rgb(120, 164, 178);
+}
+
+.sharePost:hover{
+  scale: 1.01;
+  transition: scale 0.25s ease-in;
+    
+}
+
+.sharePostWrapper {
+  padding: 10px;
+}
+
+.sharePostTop {
+  display: flex;
+  align-items: center;
+}
+
+.sharePostProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.sharePostInput {
+  border: none;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(181, 213, 222);
+  border: 3px dotted rgb(161, 228, 248);
+  border-radius: 8px;
+}
+
+.sharePostInput:focus {
+  outline: none;
+}
+
+.sharePostHr {
+  margin: 20px;
+}
+
+.sharePostBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid rgb(111, 152, 163);
+  background-color: rgb(108, 145, 156);
+  border-radius: 8px;
+  height: 40px;
+}
+
+.sharePostOptions{
+    display: flex;
+    margin-left: 20px;
+}
+
+.sharePostOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sharePostIcon{
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.sharePostOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sharePostButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(47, 108, 193);
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.sharePostButton:hover{
+  background-color: rgb(43, 91, 158);
+  font-weight: 600;
+  padding: 8px;
+}
+
+.sharePostImgContainer{
+  padding: 0 20px 10px 20px;
+  position: relative;
+}
+
+.sharePostImg{
+  width: 100%;
+  object-fit: cover;
+}
+
+.sharePostCancelImg{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+}
